@@ -5,18 +5,16 @@
 @import url("styles/contato.css");
 @import url("styles/rodapé.css");
 
-
 :root {
-    --cor-de-fundo: #EBECEE;
-    --branco: #FFFFFF;
-    --laranja: #EB9B00;
-    --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
+    --cor-de-fundo: #FFF9F9; /* Cor de fundo em tom de pêssego muito claro */
+    --branco: #FFFFFF; /* Branco puro para contraste */
+    --cor-morango: #F74F5F; /* Cor vibrante de morango */
+    --cor-pessego: #F7A27E; /* Tom suave de pêssego */
+    --cor-verde-folha: #6BBE77; /* Tom de verde que lembra as folhas das frutas */
     --fonte-principal: "Poppins";
-    --azul: #002F52;
-    --fonte-secundario: "Josefin Sans";
-    --preto: #000000;
-    --cinza: #474646;
-    --cinza-claro: #858585;
+    --cor-texto: #333333; /* Texto em um tom escuro para boa legibilidade */
+    --cor-secundaria: #F8C4B6; /* Tom complementar suave, lembra a cor de um pêssego claro */
+    --cor-borda: #F7A27E; /* Cor de borda que combina com o tom de pêssego */
 }
 
 body {
@@ -24,4 +22,29 @@ body {
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
+    color: var(--cor-texto);
+}
+
+header {
+    background-color: var(--cor-morango); /* Cabeçalho em cor de morango vibrante */
+}
+
+.banner {
+    background-color: var(--cor-pessego); /* Banner em tom suave de pêssego */
+}
+
+.carrossel {
+    background-color: var(--cor-secundaria); /* Carrossel em tom complementar */
+}
+
+.topicos {
+    border: 1px solid var(--cor-borda); /* Bordas dos tópicos em tom de pêssego */
+}
+
+.contato {
+    background-color: var(--cor-verde-folha); /* Seção de contato em verde folha */
+}
+
+.rodape {
+    background-color: var(--cor-pessego); /* Rodapé no tom suave de pêssego */
 }
